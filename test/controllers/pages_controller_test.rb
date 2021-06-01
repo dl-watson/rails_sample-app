@@ -1,7 +1,7 @@
 require "test_helper"
 
 class PagesControllerTest < ActionDispatch::IntegrationTest
-  def setup
+  setup do
     @base_title = "Rails Sample App"
   end
 
